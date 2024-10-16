@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interactive Science Website on Pressure">
+    <meta name="keywords" content="pressure, science, gas laws, fluid pressure">
+    <meta name="author" content="Your Name">
+    <title>Pressure Science Interactive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#simulations">Simulations</a></li>
+                <li><a href="#about">About Pressure</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Pressure Science Interactive</h1>
+        <p>Explore the world of pressure with interactive simulations and educational content.</p>
+        <img src="assets/images/pressure_diagram.jpg" alt="Pressure Diagram">
+    </section>
+
+    <section id="simulations">
+        <h2>Interactive Pressure Calculator</h2>
+        <p>Adjust the force and area to see how pressure changes!</p>
+        <div class="calculator">
+            <label for="force">Force (N):</label>
+            <input type="number" id="force" value="10">
+            <label for="area">Area (m²):</label>
+            <input type="number" id="area" value="2">
+            <button onclick="calculatePressure()">Calculate Pressure</button>
+        </div>
+        <p id="pressureResult"></p>
+    </section>
+
+    <section id="about">
+        <h2>What is Pressure?</h2>
+        <p>Pressure is the force applied perpendicular to the surface of an object per unit area. It can be calculated using the formula:</p>
+        <p><strong>Pressure = Force / Area</strong></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For questions, reach out to <a href="mailto:info@pressurescience.com">info@pressurescience.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pressure Science Interactive. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
